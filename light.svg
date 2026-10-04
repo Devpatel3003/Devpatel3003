@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Dev Patel - Data Analyst &amp; Full-Stack Web Developer Profile">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="lightBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <linearGradient id="lightCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.96" />
+    </linearGradient>
+
+    <linearGradient id="blueVioletGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+
+    <linearGradient id="lightBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="lightPillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <radialGradient id="lightBlueGlow" cx="15%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="lightEmeraldGlow" cx="85%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="lightGridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#CBD5E1" stroke-width="0.75" stroke-opacity="0.35" />
+    </pattern>
+
+    <clipPath id="leftClipLight">
+      <rect x="24" y="68" width="416" height="518" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .neon-cyan { fill: #0284C7; }
+    .neon-emerald { fill: #059669; }
+    .neon-violet { fill: #7C3AED; }
+    .text-dim { fill: #94A3B8; }
+    .text-muted { fill: #64748B; }
+    .text-light { fill: #334155; }
+    .text-bright { fill: #0F172A; }
+  </style>
+
+  <!-- Outer Canvas Container -->
+  <rect x="1" y="1" width="1178" height="608" rx="20" fill="url(#lightBgGrad)" stroke="#CBD5E1" stroke-width="1.5" />
+  
+  <!-- Grid & Glows -->
+  <rect x="2" y="2" width="1176" height="606" rx="19" fill="url(#lightGridPattern)" />
+  <rect x="2" y="2" width="1176" height="606" rx="19" fill="url(#lightBlueGlow)" pointer-events="none" />
+  <rect x="2" y="2" width="1176" height="606" rx="19" fill="url(#lightEmeraldGlow)" pointer-events="none" />
+
+  <!-- Top Terminal Header Bar -->
+  <g id="terminalHeaderLight">
+    <rect x="1" y="1" width="1178" height="42" rx="20" fill="#FFFFFF" fill-opacity="0.95" />
+    <line x1="1" y1="42" x2="1179" y2="42" stroke="#E2E8F0" stroke-width="1" />
+    
+    <!-- Window Controls -->
+    <circle cx="28" cy="22" r="6" fill="#EF4444" fill-opacity="0.9" />
+    <circle cx="48" cy="22" r="6" fill="#F59E0B" fill-opacity="0.9" />
+    <circle cx="68" cy="22" r="6" fill="#10B981" fill-opacity="0.9" />
+
+    <!-- Terminal Shell Breadcrumb -->
+    <text x="96" y="22" dominant-baseline="central" class="mono" font-size="12" fill="#64748B" font-weight="600">
+      devpatel@workstation:<tspan fill="#0284C7">~/profile/system</tspan> <tspan fill="#94A3B8">(main)</tspan>
+    </text>
+
+    <!-- Top Status Badges -->
+    <g transform="translate(940, 10)">
+      <rect x="0" y="0" width="112" height="22" rx="11" fill="#ECFDF5" stroke="#059669" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#059669">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="24" y="11" dominant-baseline="central" class="mono" font-size="10.5" font-weight="700" fill="#065F46" letter-spacing="0.5">OPEN TO WORK</text>
+    </g>
+
+    <g transform="translate(1064, 10)">
+      <rect x="0" y="0" width="94" height="22" rx="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+      <text x="14" y="11" dominant-baseline="central" class="mono" font-size="10.5" fill="#475569">SYS: <tspan fill="#0284C7" font-weight="700">ONLINE</tspan></text>
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- LEFT COLUMN : VISUAL.MAP & IDENTITY (38%)               -->
+  <!-- ======================================================== -->
+  <g id="leftColumnLight">
+    <!-- Left Card -->
+    <rect x="24" y="58" width="416" height="528" rx="16" fill="url(#lightCardGrad)" stroke="url(#lightBorderGrad)" stroke-width="1.2" />
+    
+    <!-- Card Header -->
+    <path d="M 25 59 L 439 59 A 15 15 0 0 1 439 88 L 25 88 Z" fill="#F8FAFC" />
+    <line x1="24" y1="88" x2="440" y2="88" stroke="#E2E8F0" stroke-width="1" />
+    <text x="42" y="74" dominant-baseline="central" class="mono" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="1.5">● VISUAL.MAP // DEV_PATEL</text>
+    
+    <text x="418" y="74" text-anchor="end" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">ID:<tspan fill="#0284C7" font-weight="700">0xDEV</tspan></text>
+
+    <!-- ASCII Portrait (Centered) -->
+    <g clip-path="url(#leftClipLight)">
+      <line x1="24" y1="90" x2="440" y2="90" stroke="#0284C7" stroke-opacity="0.25" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 300" dur="4.5s" repeatCount="indefinite" />
+      </line>
+
+      <!-- Clean Centered ASCII Avatar -->
+      <g class="mono" font-size="7.6" line-height="1" xml:space="preserve" font-weight="700" opacity="0.95">
+        <text x="56" y="106" fill="#CBD5E1">................................................</text>
+        <text x="56" y="116" fill="#94A3B8">............:::+*#%%%%%#*+:::...................</text>
+        <text x="56" y="126" fill="#64748B">.........:=%@@@@@@@@@@@@@@@@%+:.................</text>
+        <text x="56" y="136" fill="#0284C7">.......-#@@@@@@@@@@@@@@@@@@@@@@#=...............</text>
+        <text x="56" y="146" fill="#0284C7">......*@@@@@@@@@@@@@@@@@@@@@@@@@@*..............</text>
+        <text x="56" y="156" fill="#0369A1">.....+@@@@@@@@@@@@@@@@@@@@@@@@@@@@+.............</text>
+        <text x="56" y="166" fill="#0369A1">....=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=............</text>
+        <text x="56" y="176" fill="#4F46E5">....#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#............</text>
+        <text x="56" y="186" fill="#4F46E5">....@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@............</text>
+        <text x="56" y="196" fill="#6D28D9">...:@@@@@@@@%##*+==--==+*##%@@@@@@@@:...........</text>
+        <text x="56" y="206" fill="#6D28D9">...-@@@@#=:..                ..:=#@@@@-.........</text>
+        <text x="56" y="216" fill="#0F172A">...=@@@+    [■■]     [■■]     +@@@=.............</text>
+        <text x="56" y="226" fill="#0F172A">...:@@@.   .::::.   .::::.    .@@@:.............</text>
+        <text x="56" y="236" fill="#0284C7">....%@@:     ::       ::      :@@%..............</text>
+        <text x="56" y="246" fill="#0284C7">....+@@*         :::         *@@+...............</text>
+        <text x="56" y="256" fill="#059669">.....#@@=       =====       =@@#................</text>
+        <text x="56" y="268" fill="#0284C7">......-%@@@@%#*+=====+*#%@@@@%-.................</text>
+        <text x="56" y="278" fill="#64748B">........+@@@@@@@@@@@@@@@@@@@@+..................</text>
+        <text x="56" y="288" fill="#94A3B8">...::==+*#%@@@@@@@@@@@@@@@@@@%#*+==::...........</text>
+      </g>
+    </g>
+
+    <!-- 3 Centered Quick Stats -->
+    <g transform="translate(42, 308)">
+      <rect x="0" y="0" width="118" height="50" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="12" y="18" class="mono" font-size="9" fill="#64748B" font-weight="600" letter-spacing="0.5">ACADEMIC CGPA</text>
+      <text x="12" y="38" class="mono" font-size="15" font-weight="800" fill="#0284C7">9.00<tspan font-size="9.5" fill="#64748B">/10</tspan></text>
+
+      <rect x="131" y="0" width="118" height="50" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="143" y="18" class="mono" font-size="9" fill="#64748B" font-weight="600" letter-spacing="0.5">TOTAL EXP</text>
+      <text x="143" y="38" class="mono" font-size="15" font-weight="800" fill="#059669">1+ <tspan font-size="10" fill="#475569" font-weight="600">YEARS</tspan></text>
+
+      <rect x="262" y="0" width="118" height="50" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="274" y="18" class="mono" font-size="9" fill="#64748B" font-weight="600" letter-spacing="0.5">ML ACCURACY</text>
+      <text x="274" y="38" class="mono" font-size="15" font-weight="800" fill="#7C3AED">87.1%</text>
+    </g>
+
+    <!-- Terminal Command Console Box -->
+    <g transform="translate(42, 372)">
+      <rect x="0" y="0" width="380" height="96" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <path d="M 0 0 L 380 0 A 8 8 0 0 1 380 22 L 0 22 Z" fill="#F1F5F9" />
+      <circle cx="12" cy="11" r="3.5" fill="#0284C7" />
+      <text x="22" y="11" dominant-baseline="central" class="mono" font-size="10" fill="#64748B" font-weight="600">terminal - telemetry stream</text>
+
+      <g transform="translate(14, 42)" class="mono" font-size="10.5">
+        <text y="0" fill="#475569">$ <tspan fill="#059669" font-weight="700">python</tspan> <tspan fill="#0F172A">-m profile.analytics</tspan></text>
+        <text y="19" fill="#0284C7">> Power BI · MySQL · PHP · Python: <tspan fill="#059669" font-weight="700">ONLINE</tspan></text>
+        <text y="38" fill="#475569">> <tspan fill="#7C3AED" font-weight="600">End-to-End Analytics &amp; Full-Stack Systems</tspan></text>
+      </g>
+    </g>
+
+    <!-- Location footer strip (Centered) -->
+    <g transform="translate(42, 484)">
+      <rect x="0" y="0" width="380" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <circle cx="16" cy="17" r="3.5" fill="#059669" />
+      <text x="28" y="17" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">LOCATION: <tspan fill="#0F172A" font-weight="600">Ahmedabad / Mehsana, Gujarat, India</tspan></text>
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- RIGHT COLUMN : SYSTEM.INFO & PROFILE ARCHITECTURE (62%) -->
+  <!-- ======================================================== -->
+  <g id="rightColumnLight">
+    <!-- Right Container -->
+    <rect x="456" y="58" width="700" height="528" rx="16" fill="url(#lightCardGrad)" stroke="url(#lightBorderGrad)" stroke-width="1.2" />
+    
+    <!-- Header with Aligned Text -->
+    <path d="M 457 59 L 1155 59 A 15 15 0 0 1 1155 88 L 457 88 Z" fill="#F8FAFC" />
+    <line x1="456" y1="88" x2="1156" y2="88" stroke="#E2E8F0" stroke-width="1" />
+    <text x="476" y="74" dominant-baseline="central" class="mono" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="1.5">● SYSTEM.INFO // CORE_PROFILE_MATRIX</text>
+
+    <!-- Fixed & Aligned STATUS: ACTIVE in Header -->
+    <text x="1136" y="74" text-anchor="end" dominant-baseline="central" class="mono" font-size="10.5" fill="#64748B">STATUS: <tspan fill="#059669" font-weight="700">ACTIVE</tspan></text>
+
+    <!-- Candidate Main Name & Title Header Area -->
+    <g transform="translate(476, 102)">
+      <!-- Name -->
+      <text x="0" y="24" class="sans" font-size="30" font-weight="800" fill="url(#blueVioletGrad)" letter-spacing="-0.5">DEV PATEL</text>
+      
+      <!-- Verified Badge -->
+      <g transform="translate(180, 4)">
+        <rect x="0" y="0" width="88" height="22" rx="11" fill="#FFFFFF" stroke="#0284C7" stroke-width="1" />
+        <circle cx="10" cy="11" r="3.5" fill="#0284C7" />
+        <text x="19" y="11" dominant-baseline="central" class="mono" font-size="9.5" font-weight="700" fill="#0369A1">VERIFIED</text>
+      </g>
+
+      <!-- Dynamic Role Rotator with EXACTLY TWO ROLES -->
+      <g transform="translate(0, 48)">
+        <text x="0" y="0" class="mono" font-size="13.5" font-weight="600" fill="#475569">
+          ROLE > 
+          <!-- Role 1: Data Analyst & BI Specialist -->
+          <tspan fill="#0284C7">
+            <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.50;0.95;1" dur="6s" repeatCount="indefinite" />
+            Data Analyst &amp; BI Specialist
+          </tspan>
+        </text>
+        
+        <!-- Role 2: Full-Stack Web Developer -->
+        <text x="65" y="0" class="mono" font-size="13.5" font-weight="600" fill="#059669" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.50;0.95;1" dur="6s" repeatCount="indefinite" />
+          Full-Stack Web Developer (PHP · JS · SQL)
+        </text>
+
+        <!-- Blinking Terminal Cursor -->
+        <rect x="420" y="-11" width="7" height="13" fill="#0284C7">
+          <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+        </rect>
+      </g>
+
+      <!-- Tagline -->
+      <text x="0" y="66" class="sans" font-size="11.5" fill="#475569" font-weight="500">
+        Data Analyst &amp; Full-Stack Web Developer | Power BI · SQL · Python · PHP · JavaScript
+      </text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="476" y1="182" x2="1136" y2="182" stroke="#E2E8F0" stroke-width="1" />
+
+    <!-- Structured Key-Value Specification Grid -->
+    <g transform="translate(476, 194)" class="mono" font-size="11">
+      <text x="0" y="14" fill="#64748B" font-weight="700">> EXPERIENCE</text>
+      <text x="110" y="14" fill="#0F172A">Data Analyst Intern <tspan fill="#0284C7" font-weight="600">@ Maxgen</tspan> <tspan fill="#94A3B8">|</tspan> Web Dev <tspan fill="#059669" font-weight="600">@ IV Infotech (PHP, JS, SQL)</tspan></text>
+
+      <text x="0" y="34" fill="#64748B" font-weight="700">> EDUCATION</text>
+      <text x="110" y="34" fill="#0F172A">B.Tech Computer Engineering <tspan fill="#059669" font-weight="700">(CGPA 9.00/10)</tspan> <tspan fill="#64748B">· Silver Oak Univ</tspan></text>
+
+      <text x="0" y="54" fill="#64748B" font-weight="700">> CORE FOCUS</text>
+      <text x="110" y="54" fill="#0F172A">Power BI Dashboards <tspan fill="#94A3B8">·</tspan> SQL ETL <tspan fill="#94A3B8">·</tspan> Full-Stack Web Apps <tspan fill="#94A3B8">·</tspan> Analytics</text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="476" y1="264" x2="1136" y2="264" stroke="#E2E8F0" stroke-width="1" />
+
+    <!-- SECTION: TECH STACK PILLS (Clean & Balanced 2 Rows) -->
+    <g transform="translate(476, 276)">
+      <text x="0" y="0" class="mono" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1">> CORE_TECHNOLOGY_STACK</text>
+
+      <!-- Row 1: Analytics & BI -->
+      <g transform="translate(0, 10)">
+        <g transform="translate(0, 0)">
+          <rect width="84" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#38BDF8" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#0284C7" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Power BI</text>
+        </g>
+        <g transform="translate(92, 0)">
+          <rect width="90" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#34D399" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#059669" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">MySQL/SQL</text>
+        </g>
+        <g transform="translate(190, 0)">
+          <rect width="74" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#818CF8" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#6366F1" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Python</text>
+        </g>
+        <g transform="translate(272, 0)">
+          <rect width="58" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#F59E0B" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#D97706" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">DAX</text>
+        </g>
+        <g transform="translate(338, 0)">
+          <rect width="66" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#10B981" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#059669" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Excel</text>
+        </g>
+        <g transform="translate(412, 0)">
+          <rect width="118" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#38BDF8" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#0284C7" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Pandas/NumPy</text>
+        </g>
+        <g transform="translate(538, 0)">
+          <rect width="118" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#A78BFA" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#7C3AED" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Scikit-Learn</text>
+        </g>
+      </g>
+
+      <!-- Row 2: Full-Stack Web Development -->
+      <g transform="translate(0, 40)">
+        <g transform="translate(0, 0)">
+          <rect width="100" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#F97316" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#EA580C" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">HTML5 / CSS3</text>
+        </g>
+        <g transform="translate(108, 0)">
+          <rect width="94" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#FBBF24" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#D97706" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">JavaScript</text>
+        </g>
+        <g transform="translate(210, 0)">
+          <rect width="56" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#818CF8" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#4F46E5" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">PHP</text>
+        </g>
+        <g transform="translate(274, 0)">
+          <rect width="60" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#06B6D4" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#0891B2" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">AJAX</text>
+        </g>
+        <g transform="translate(342, 0)">
+          <rect width="88" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#8B5CF6" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#7C3AED" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Bootstrap</text>
+        </g>
+        <g transform="translate(438, 0)">
+          <rect width="86" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#EC4899" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#DB2777" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Streamlit</text>
+        </g>
+        <g transform="translate(532, 0)">
+          <rect width="124" height="23" rx="5" fill="url(#lightPillGrad)" stroke="#38BDF8" stroke-width="1" />
+          <circle cx="9" cy="11.5" r="2.5" fill="#0284C7" />
+          <text x="18" y="11.5" dominant-baseline="central" class="mono" font-size="10" font-weight="700" fill="#0F172A">Git / GitHub</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="476" y1="352" x2="1136" y2="352" stroke="#E2E8F0" stroke-width="1" />
+
+    <!-- SECTION: FEATURED BENCHMARK PROJECTS (Clean 2 Showcase Cards) -->
+    <g transform="translate(476, 364)">
+      <text x="0" y="0" class="mono" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1">> KEY_BENCHMARK_PROJECTS</text>
+
+      <!-- Project Card 1: HR Attrition -->
+      <g transform="translate(0, 10)">
+        <rect width="660" height="42" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <circle cx="16" cy="21" r="3.5" fill="#7C3AED" />
+        <text x="30" y="15" dominant-baseline="central" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Employee Attrition Prediction &amp; HR Analytics System</text>
+        <text x="30" y="29" dominant-baseline="central" class="mono" font-size="9" fill="#475569">1,470+ records · 5 ML models (87.1% accuracy) · Interactive 4-page Power BI &amp; Streamlit App</text>
+        <rect x="586" y="11" width="62" height="20" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+        <text x="617" y="21" text-anchor="middle" dominant-baseline="central" class="mono" font-size="8.5" font-weight="700" fill="#7C3AED">ML + BI</text>
+      </g>
+
+      <!-- Project Card 2: Mobile Sales -->
+      <g transform="translate(0, 58)">
+        <rect width="660" height="42" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <circle cx="16" cy="21" r="3.5" fill="#059669" />
+        <text x="30" y="15" dominant-baseline="central" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Mobile Sales Analytics Dashboard &amp; KPI Engine</text>
+        <text x="30" y="29" dominant-baseline="central" class="mono" font-size="9" fill="#475569">Dynamic Power BI KPIs · DAX Measures · Transactions &amp; City-wise performance trends</text>
+        <rect x="586" y="11" width="62" height="20" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" />
+        <text x="617" y="21" text-anchor="middle" dominant-baseline="central" class="mono" font-size="8.5" font-weight="700" fill="#059669">POWER BI</text>
+      </g>
+    </g>
+
+    <!-- BOTTOM ROW: PERFECTLY CENTERED CONTACT & CONNECTIVITY LINKS -->
+    <g transform="translate(476, 484)">
+      <rect x="0" y="0" width="660" height="34" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      
+      <text x="18" y="17" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">
+        EMAIL: <tspan fill="#0284C7" font-weight="700">devp20620@gmail.com</tspan>
+      </text>
+
+      <text x="240" y="17" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">
+        TEL: <tspan fill="#334155" font-weight="600">+91 9709720620</tspan>
+      </text>
+
+      <text x="420" y="17" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">
+        GITHUB: <tspan fill="#059669" font-weight="700">Devpatel3003</tspan>
+      </text>
+
+      <text x="560" y="17" dominant-baseline="central" class="mono" font-size="10" fill="#64748B">
+        LOC: <tspan fill="#7C3AED" font-weight="600">Gujarat, IN</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
