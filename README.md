@@ -296,13 +296,6 @@ I am a **Data Analyst, ML Analytics Explorer &amp; Full-Stack Web Developer** wi
 
 <br/><br/>
 
-```sql
-SELECT 
-    'Dev Patel' AS Candidate,
-    'Data Analyst · ML Analytics · Full-Stack Web Developer' AS Specialization,
-    'Open to Opportunities' AS Current_Status;
-```
-
 <sub>Designed &amp; Maintained by <b>Dev Patel</b> ⚡ Powered by Clean Monospace &amp; SVG Architecture</sub>
 
 </div>
